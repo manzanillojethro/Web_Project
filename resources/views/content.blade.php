@@ -53,6 +53,18 @@
                 <p>In this part of our project, we focused on creating and registering new middleware in Laravel. We developed two middleware: CheckAge, which checks if a user’s age is at least 18 and redirects them to an "Access Denied" page if not, and LogRequests, which logs details of all HTTP requests to a log.txt file, capturing the URL, method, and timestamp. After registering both middleware in the app/Http/Kernel.php file, we assigned CheckAge to a route group that included routes for a welcome page and a dashboard page, allowing us to test various age scenarios. We further enhanced the CheckAge middleware by modifying it to accept parameters, enabling us to enforce different age restrictions on new routes.</p>
             </div>
         </div>
+
+        <!--Card 5-->
+        <div class="card">
+            <a href="https://docs.google.com/document/d/1wgAtUe-i0cvnn4ccAR_A4QFdqW5JglFRDxQC0opuOWo/edit?tab=t.0" class="card__image1">
+                <img src="{{ asset('images/p5.png') }}" alt="profile">
+                <div class="overlay">Click for Documentation</div>
+            </a>
+            <div class="card__description">
+                <h2>Conroller</h2>
+                <p>In this project, we created and registered controllers to manage key pages in our web application. We started with HomeController to load the home page and DashboardController to handle the dashboard, establishing smooth navigation for users. After setting up these controllers, we linked them to routes for direct access to the home and dashboard pages. To secure specific routes, we applied authentication middleware to restrict access to the dashboard, ensuring that only authorized users could view this page. Finally, we enhanced DashboardController to accept dynamic parameters, like user IDs, allowing the dashboard to display user-specific data. This added flexibility provided a more personalized experience, making our application more interactive and user-friendly.</p>
+            </div>
+        </div>
         
     </div>
 </section>

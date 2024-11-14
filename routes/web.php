@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 // Group routes logreq
 Route::middleware([LogRequests::class])->group(function () {
-    Route::get('/home', function () {
+    Route::get('/', function () {
         return view('home');
     })->name('home');
 
